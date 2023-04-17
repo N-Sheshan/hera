@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+
+}
+.topimg{
+    background-image: url('/assets/images/SPECIALTIES_SERVICED/spec-10.jpg');
+    width: 100%;
+    height:35vh;
+    background-size: cover;
+    background-position: center;
+    position:relative;
+   
+}
+.topimg h1{
+    position:absolute;
+    top: 25%;
+left: 15%;
+    color: white;
+    font-size: 10mm;
+}
+.container h2{
+    margin-top: 40px;
+    font-size: 7mm;
+    color: rgb(17, 211, 237);
+}
+.contact a{
+    color: #696969;
+   margin-right: 30px;
+   
+}
+.contact a:hover{
+    color: rgba(14, 95, 224, 0.954);
+}
+.content{
+    display: block;
+    margin: 0px 10% ;
+    padding: 40px 0px;
+   
+}
+.contact{
+    
+    justify-content: space-around;
+}
+
+.sub{
+    color:rgb(86, 80, 80);
+}
+.subInsurance{
+    color:rgb(86, 80, 80);
+    font-size: medium;
+}
+.opt1red{
+    text-align: center;
+    color: red;
+}
+.textbo{
+    width: 30;
+    padding: 10px 10px 10px 10px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+  }
+  .textbo1{
+    width: 30;
+    padding: 5px 10px 5px 10px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+  }
+  .submit{
+    border-radius: 50px;
+    padding: 10px 15px;
+    border: 1px solid black;
+    color:white;
+    background-color:#0078AE;
+    margin: 10px 0px;
+    margin-left: 25px;
+    cursor: pointer;
+  }
+  .base{
+    display: flex;
+  }
+  .to{
+     margin-right: 25px;
+  }
+  

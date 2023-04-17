@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    padding: 0;
+    /* position: relative; */
+}
+.container{
+   /* display:flex; */
+    margin: 0;
+}
+.topimg{
+    background-image: url('/assets/images/SPECIALTIES_SERVICED/spec-11.jpg');
+    width: 100%;
+    height:35vh;
+    background-position: center;
+    position:relative;
+   
+}
+.topimg h1{
+    position:absolute;
+    top: 25%;
+    left: 15%;
+    color: white;
+    font-size: 10mm;
+}
+.content{
+    display: block;
+    /* background-color: rgba(221, 38, 38, 0.372); */
+    padding: 30px 15%;
+}
+.content .about span{
+ color: blueviolet;
+ font-weight: bold;
+}
+.servicelist{
+ margin:20px  0px;
+}
+.servicelist h1{
+    color: rgba(66, 152, 123, 0.761);
+}
+.servicelist .list{
+    display: grid;
+    display: flex;
+}
+.servicelist .list ul{
+    padding: 15px;
+    list-style: none;
+}
+.servicelist .list ul li{
+    padding: 3px;
+}
+
+.content .servicelists{
+    padding: 30px 2px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr; 
+    
+    grid-gap: 20px;
+}
+.feature{
+    transition: .3s;
+}
+
+.feature img{
+    position: relative;
+    width: 100%;
+    height: 80%;
+    border-radius: 10px;
+    position: relative;
+    cursor: pointer;
+}
+
+li:before {
+    content: "";
+    width: 14px;
+    height: 14px;
+    background: url('/assets/images/list-check.png') no-repeat center center;
+    display: inline-block;
+    margin-right: 15px;
+    vertical-align: middle;
+    position: relative;
+    top: -1px;
+}
+
+.feature:hover{
+    transform: scale(1.3);
+    z-index:2;
+    color: #1a98e0;
+}
+.feature h3 :hover{
+    
+}
+@media only screen and  (max-width: 1140px) {
+    .servicelist .list{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    .content .servicelists{
+        grid-template-columns: 1fr 1fr 1fr ; 
+    }
+}
+@media only screen and  (max-width: 850px) {
+    .servicelist .list{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    .content .servicelists{
+        grid-template-columns: 1fr 1fr ; 
+          }
+}
+@media only screen and  (max-width: 570px) {
+    .servicelist .list{
+        display: grid;
+        grid-template-columns: 1fr ;
+    }
+    .servicelist{
+        justify-content: center;
+        align-items: center;
+    }
+    .servicelist .list ul{
+        padding: 3px;}
+        .content .servicelists{
+          grid-template-columns:  1fr ; 
+        }
+}

@@ -1,0 +1,63 @@
+
+<div class="container">
+    <div class="topimg">
+        <h1>INSURANCES</h1>
+    </div>
+   <div class="content">
+   <div class="contact">
+    <a class="to" href="tel:"><i class="fa-sharp fa-solid fa-phone"></i>9998989898</a>
+    <a class="to" href="mailto:65465@gmail.com"><i class="fa-solid fa-envelope"></i>INFO@HERATECH.COM</a>
+   </div>
+    <hr>
+    <h2 class="head">UPDATE MY BILLING/INSURANCE INFORMATION</h2>
+    <form action="">
+    <h3 class="sub">Please fill Update my Insurance Form.</h3>
+    <label class="subInsurance"><b>Insurance : &nbsp;&nbsp;</b></label>
+    <input type="radio" id="Insurance1" name="A" value="0" (click)="onclicks1()">
+    <label class="subInsurance">MEDICARE<b>&nbsp;&nbsp;</b></label>
+    <input type="radio" id="Insurance2" name="A" value="1"  (click)="onclicks2()">
+    <label class="subInsurance">ALL OTHERS<b>&nbsp;&nbsp;</b></label>
+    <div class="opt1" *ngIf="visibiles1">
+        <h5 class="opt1red">PLEASE PROVIDE INFORMATION AS SEEN ON MEDICARE CARD</h5>
+        <input type="text" id="Name" name="Name" placeholder="Account Number" class="textbo" required>
+        <input type="text" id="Name" name="Name" placeholder="Medicare #"  class="textbo"required>
+        <br>
+        <input type="fname" id="Name" name="Name" placeholder="First Name" class="textbo" required>
+        <input type="lname" id="Name" name="Name" placeholder="Last Name"  class="textbo"required>
+    </div>
+    <div class="opt2" *ngIf="visibiles2">
+        <input type="text" id="Name" name="Name" placeholder="Account Number" class="textbo" required>
+        <br>
+        <input type="text" id="Name" name="Name" placeholder="First Name" class="textbo" required>
+        <input type="text" id="Name" name="Name" placeholder="Last Name"  class="textbo" required>
+        <br>
+        <input type="text" id="Name" name="Name" placeholder="Insurance nmae" class="textbo" required>
+        <input type="text" id="Name" name="Name" placeholder="Insurance #"  class="textbo" required>
+        <br>
+        <input type="text" id="Name" name="Name" placeholder="Subscriber Name" class="textbo"required>
+        <input type="text" id="Name" name="Name" placeholder="Group #"  class="textbo" required>
+        <br>
+        <select name="text" id="text" class="textbo1" required>
+            <option value="">Relationship</option>
+            <option>Self</option>
+            <option>Spouse</option>
+            <option>Child</option>
+            <option>Other</option>
+        </select>
+    </div>
+    <label for="dob">Date of Birth : </label>
+    <input type="date" id="dob" name="dob" placeholder="Date of Birth"  class="textbo" required>
+    <br>
+    <label class="subInsurance"><b>Gender :  &nbsp;&nbsp;</b></label>
+    <input type="radio" id="Gender" name="B" value="0" required>
+    <label class="subInsurance">MALE<b>&nbsp;&nbsp;</b></label>
+    <input type="radio" id="Gender" name="B" value="1" required>
+    <label class="subInsurance">FEMALE<b>&nbsp;&nbsp;</b></label>
+    <div class="base">
+    <div class="g-recaptcha" data-sitekey="6Ldbdg0TAAAAAI7KAf72Q6uagbWzWecTeBWmrCpJ"></div>
+    <button type="" value="" class="submit">Submit Now</button>
+    </div>
+</form>
+   </div>
+
+</div>

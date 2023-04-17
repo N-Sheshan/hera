@@ -1,0 +1,165 @@
+*{
+    text-decoration: none;
+    display: block;
+  }
+  .topimg{
+      background-image: url('/assets/images/SPECIALTIES_SERVICED/spec-13.jpg');
+      width: 100%;
+      height:28vh;
+      background-position: center;
+      position:relative;
+     
+  }
+  .topimg h1{
+      position:absolute;
+      width: 65%;
+      top: 25%;
+  left: 15%;
+      color: white;
+      font-size: 8mm;
+      line-height: 28px;
+      overflow-y: hidden;
+  }
+  .topimg h1 span{
+    font-weight:bold;
+  }
+  /* ---------------------------------------------------------------- */
+  .container{
+    background-color:rgba(245, 245, 245, 0.185);
+}
+  .content{
+    margin: 0px 15%;
+    display: block;
+  }
+  .content h1{
+    color:#0078AE;
+    font-size: x-large;
+    font-weight: bolder;
+    margin-top: 10px;
+  }
+.col{
+    display: flex;
+}
+
+
+
+  form input{
+    margin:  10px 0px;
+    display:block;
+    width:96.2%;
+    border:1px solid #8585858c;
+    border-radius: 3px;
+  }
+  select{
+    margin: 10px 0px ;
+    width: 100%;
+    border-radius: 3px;
+    border:1px solid #8585858c;
+  }
+form .name{
+  display: flex;
+  width: 70%;
+ 
+}
+.name input{
+  margin-right: 30px;
+}
+input,select{
+  padding-right: 5px;
+  padding: 10px 10px;
+}
+#invoice{
+  width: 40%;
+}
+form .submit{
+  width: 150px;
+  border-radius: 50px;
+  padding: 10px 15px;
+  color:white;
+  background-color:#0078AE;
+  margin: 10px 0px;
+  margin-left: 25px;
+  cursor: pointer;
+}
+.texta{
+    resize: none;
+    padding: 15px;
+    width:96%;
+    height:80px;
+    border-radius: 3px;
+    border:1px solid #8585858c;
+    
+  }
+.form{
+  width: 60%;
+}
+.content .address{
+  /* position: relative; */
+  border-radius: 3PX;
+  width: 40%;
+  height: 29vh;
+    margin:10px 20px;
+    background-color:#0077aec5;
+    border: 2px solid rgba(0, 0, 0, 0.349);
+    display: inline-block;
+}
+.address .row{
+  margin: 10px 10px;
+  padding: 10px;
+  color: white;
+  display: flex;
+}
+.row a{
+  color: white;
+}
+.row i{
+font-size: large;
+padding: 0PX 10PX ;
+}
+
+
+iframe{
+  margin-top: 8%;
+}
+
+
+
+
+@media only screen and  (max-width: 1070px){
+  .content{
+    margin: 10px 5%;
+  }
+.col .address{
+    height: 40%;
+  }
+}
+@media only screen and  (max-width: 810px){
+  .content{
+    margin: 10px 3%;
+  }
+  .col{
+    display: block;
+  }
+  .form{
+    width: 100%;
+  }
+  .content .address{
+    width: 90%;
+    /* height: 25vh; */
+  }
+  .address .row{
+    margin: 0PX;
+    width: 90%;
+  }
+  .texta{
+    width: 95%;
+  }
+  form .submit{
+    width: 90%;
+  }
+}
+/* @media only screen and  (max-width: 3965px){
+ .content .address{
+    height: 25vh;
+  } 
+ }   */

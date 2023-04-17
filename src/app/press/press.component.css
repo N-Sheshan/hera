@@ -1,0 +1,61 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+    display: block;
+}
+
+.topimg{
+    background-image: url('/assets/images/SPECIALTIES_SERVICED/spec-12.jpg');
+    width: 100%;
+    height:25vh;
+    background-position: center;
+    position:relative;
+   
+}
+.topimg h1{
+    position:absolute;
+    top: 25%;
+left: 15%;
+    color: rgba(0, 0, 0, 0.726);
+    font-size: 10mm;
+}
+.content{
+    margin: 20px 10%;
+    display: grid;
+    /* grid-template-columns: 1fr 1fr 1fr; */
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    grid-gap: 20px;
+}
+
+.content img{
+    width: 100%;
+    height: 10vh;
+    padding: 20px;
+}
+.content h3{
+    line-height: 20px;
+    font-weight: 500;
+    color: black;
+}
+.content p{
+    font-size: small;
+    color: #898989;
+}
+.content a{
+    color: #0084ff;
+}
+.content h3 :visited{
+    color: forestgreen;
+}
+@media only screen and  (max-width: 835px){
+ /* .content{
+    grid-template-columns: 1fr 1fr ;
+    grid-gap: 25px;
+ } */
+}
+@media only screen and  (max-width: 535px){
+    /* .content{
+        grid-template-columns: 1fr ;
+     } */
+}

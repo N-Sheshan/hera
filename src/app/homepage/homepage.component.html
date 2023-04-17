@@ -1,0 +1,198 @@
+<div class="slider">
+  <div class="slides">
+    <input type="radio" name="radio-btn" id="radio1">
+    <input type="radio" name="radio-btn" id="radio2">
+    <input type="radio" name="radio-btn" id="radio3">
+    <input type="radio" name="radio-btn" id="radio4">
+    <div class="slide first">
+      <img src="../assets/images/slide/slide1.jpg" alt="">    
+    </div>
+    <div class="slide second">
+      <img src="../assets/images/slide/slide6.jpg" alt="">  
+    </div>
+    <div class="slide third">
+      <img src="../assets/images/slide/slide8.jpg" alt="">    
+    </div>
+    <div class="slide fourth">
+      <img src="../assets/images/slide/slide7.jpg" alt=""> 
+    </div>
+    <!-- <div class="navigation-auto">
+        <div class="auto-btn1"></div>
+        <div class="auto-btn2"></div>
+        <div class="auto-btn3"></div>
+        <div class="auto-btn4"></div>
+    </div> -->
+  </div>
+  <div class="navigation-manual">
+    <label for="radio1" class="manual-btn"></label>
+    <label for="radio2" class="manual-btn"></label>
+    <label for="radio3" class="manual-btn"></label>
+    <label for="radio4" class="manual-btn"></label>
+  </div>
+</div>
+ <!-- ------------------------------------------------warning blinking start--------------------------------------------------------------------- -->
+<div class="warning">
+  <h2>New York / New Jersey’s Largest Independent</h2>
+  <h2>In-Network Diagnostic Laboratory</h2>
+  <button routerLink="../jobprofiles"><a ><h2>WE ARE HIRING!</h2></a></button>
+</div>
+
+ <!-- ------------------------------------------------warning blinking end-------------------------------------------------------------------- -->
+<div class="card">
+  <div class="cardbutton" id="cardbuttons">
+    <button type="button" (click)="ShowDiv('A')">PHYSICIANS</button>
+  <button type="button" (click)="ShowDiv('B')">PATIENTS</button>
+  </div>
+  <div *ngIf="currDiv=='A'" class="tdiv">
+    <main class="grid card1 " >
+      <article routerLink="../login" >
+        <img src="../assets/images/cards/pic1.png" alt="Sample photo">
+        <div class="text">
+          <h3>Lab Results</h3>
+          <!-- <p>Collaboratively administrate empowered markets via plug-and-play networks.</p> -->
+    
+        </div>
+      </article>
+      <article routerLink="../test_directory">
+        <img src="../assets/images/cards/pic2.png">
+        <div class="text">
+          <h3>Test Directory</h3>
+          <!-- <p>Dramatically engage seamlessly visualize quality intellectual capital without superior collaboration and idea-sharing.</p> -->
+    
+        </div>
+      </article>
+      <article routerLink="../statmenu">
+        <img src="../assets/images/cards/pic3.png" alt="Sample photo">
+        <div class="text">
+          <h3>Start Menu</h3>
+          <!-- <p>Completely synergize resource taxing relationships via premier niche markets.</p> -->
+    
+        </div>
+      </article>
+      <article routerLink="../insurances">
+        <img src="../assets/images/cards/pic4.png" alt="Sample photo">
+        <div class="text">
+          <h3>Insurances</h3>
+          <!-- <p>Imagine jumping into that boat, and just letting it sail wherever the wind takes you...</p> -->
+    
+        </div>
+      </article>
+    </main>
+  </div>
+
+  <div *ngIf="currDiv=='B'" class="tdiv">
+    <main class="grid card2">
+      <article routerLink="../location">
+        <img src="../assets/images/cards/pic5.png" alt="Sample photo">
+        <div class="text">
+          <h3>Patient Service Centers</h3>
+          <!-- <p>Collaboratively administrate empowered markets via plug-and-play networks.</p> -->
+      
+        </div>
+      </article>
+      <article routerLink="../payment">
+        <img src="../assets/images/cards/pic6.png">
+        <div class="text">
+          <h3>Pay Your Bill</h3>
+          <!-- <p>Dramatically engage seamlessly visualize quality intellectual capital without superior collaboration and idea-sharing.</p> -->
+      
+        </div>
+      </article>
+      <article routerLink="../update your_ insurance">
+        <img src="../assets/images/cards/pic7.png" alt="Sample photo">
+        <div class="text">
+          <h3>Update Your Insurance</h3>
+          <!-- <p>Completely synergize resource taxing relationships via premier niche markets.</p> -->
+       
+        </div>
+      </article>
+      <article routerLink="../insurances">
+        <img src="../assets/images/cards/pic8.png" alt="Sample photo">
+        <div class="text">
+          <h3>Insurances</h3>
+          <!-- <p>Imagine jumping into that boat, and just letting it sail wherever the wind takes you...</p> -->
+      
+        </div>
+      </article>
+    </main>
+
+  </div>
+ 
+</div>
+
+<!-- ------------------------------------------------------------------------------------------------------------------------- -->
+
+<!-- ------------------------------------------------------------------------------------------------------------------------------------------------ -->
+
+    <div class="container">
+        <div class="content">
+            <div class="realcontent">
+                    <h2>WHY CHOOSE US</h2>
+                      <h3>No more ... complicated, redundant  paperwork or late reports.</h3>
+                        <p>
+                            Unanswered inquiries to corporate call centers.  Patients forced to suffer through long wait times in  crowded drawing stations.
+                        </p>
+                    <button routerLink="../specialties" ><a  class="button">
+                        speciality service
+                    </a></button>
+                
+            </div>
+           
+            <div class="subcolumn">
+                <div class="row">
+                  <i class="fa-solid fa-user-doctor"></i>
+                  <div class="details">
+                  <h2>OUR INDEPENDENT ADVANTAGE</h2>
+                  <p>As a service oriented, independent and fully certified provider, Accurate Diagnostic Labs can streamline
+                     the process and put the focus where it belongs– on you, the client.</p>
+                </div>
+                </div>
+                <div class="row">
+                  <i class="fa-solid fa-file-waveform"></i>
+                  <div class="details">
+                  <h2>OUR CUSTOMIZED APPROACH</h2>
+                  <p>It can be something as simple as adding a bit of color to a printed report, but when a service provider is willing to go that extra step
+                     in meeting the needs of their clients, it makes a tremendous difference.</p>
+                </div>
+                </div>
+                <div class="row">
+                  <i class="fa-sharp fa-solid fa-phone-volume"></i>
+                  <div class="details">
+                  <h2>SERVICE WITH A HUMAN TOUCH</h2>
+                  <p>The human touch is important in the relationship between the physician and the patient–and it’s an equally 
+                    vital part of the long-standing relationships we build with our clients.</p>
+                </div>
+                </div>
+                <div class="row">
+                  <i class="fa-sharp fa-regular fa-clock"></i>
+                  <div class="details">
+                  <h2>A WAY TO OPTIMIZE YOUR EFFICIENCY</h2>
+                  <p>Our policy of speedy and efficient turnaround for our clients means fast access to the information you need via all forms of electronic transmittal and 
+                    increased efficiency in the day to day operations of your own practice.</p>
+                </div>
+                </div>
+                <div class="row">
+                  <i class="fa-solid fa-building-wheat"></i>
+                  <div class="details">
+                  <h2>WE’RE INTEGRATED TO YOUR OFFICE</h2>
+                  <p>Our Patient Care Technicians are more than just phlebotomists. They’re members of your office family, trained to care for patients of all ages and fully integrated into your practice for all your lab related requirements. We’re
+                     also connected bidirectionally to the nation’s leading EMR softwares.</p>
+                </div>
+                </div>
+                <div class="row">
+                  <i class="fa-solid fa-square-phone-flip"></i>
+                  <div class="details">
+                  <h2>24/7 SUPPORT</h2>
+                  <p>Our 24/7 customer service team is also fully trained to recognize your specific 
+                    needs. Hence no more hold time. We are on call when you are on call.</p>
+                </div>
+                </div>
+            </div>
+        </div>
+    
+    </div>
+<!-- <script src="src/assets/js-file/base.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script> -->
+
+
+<script src="../assets/js-file/base.js"></script>

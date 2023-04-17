@@ -1,0 +1,12 @@
+.main{
+    display: inline-block;
+    width: 200px;
+    height: 200px;
+}
+
+.ma1{
+    background-color: red;
+}
+.ma2{
+    background-color: rgb(0, 60, 255);
+}

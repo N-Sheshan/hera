@@ -1,0 +1,1 @@
+const divcontainer=document.querySelector("#hdetails");let isclicked=!0,showOrHide=function(){isclicked?(divcontainer.style.display="block",isclicked=!1):(divcontainer.style.display="none",isclicked=!0)};

@@ -1,0 +1,15 @@
+<div class="main" *ngIf="currDiv=='A'"> 
+  <div class="ma1" >-1</div>
+  <div class="ma1">-2</div>
+  <div class="ma1">-3</div>
+  <div class="ma1">-4</div>
+</div>
+
+<div class="main " *ngIf="currDiv=='B'">
+  <div class="ma2">1</div>
+  <div class="ma2">2</div>
+  <div class="ma2">3</div>
+  <div class="ma2">4</div>
+</div>
+<button type="button" (click)="ShowDiv('A')">div1</button>
+<button type="button" (click)="ShowDiv('B')">div2</button>

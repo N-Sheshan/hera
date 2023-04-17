@@ -1,0 +1,170 @@
+
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.7/css/all.css">
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+<div class="floatcontent">
+  <marquee 
+ hspace="10px" [scrollAmount]="12" behavior="" direction="" onmouseover="this.stop();" onmouseout="this.start();"><h1 >As a service oriented, independent and fully certified provider, Hera Diagnostic Labs can 
+    streamline the process and put the focus where it belongs– on you, the client. Our Customized</h1></marquee>
+</div>
+<div class="wrapper">
+  <nav>
+    <input type="checkbox" id="show-search">
+    <input type="checkbox" id="show-menu">
+    <label for="show-menu" class="menu-icon"><i class="fas fa-bars" ></i></label>
+    <div class="content">
+    <div class="logo"><a href="#"><span>Hera </span>Diagnosticlabs</a></div>
+      <ul class="links">
+        <li><a routerLink="./Home">Home</a></li>
+        <li><a  routerLink="./location">Locations</a></li>
+        <li>
+          <a  class="desktop-link">Physicians<i class="fa fa-angle-down"></i></a>
+          <input type="checkbox" id="show-features" class="show">
+          <label for="show-features">Physicians <i class="fa fa-angle-down"></i></label>
+          <ul class="sublist">
+            <li><a routerLink="./specialties">Specialities Serviced</a></li>
+            <li><a routerLink="./test_directory">Test directory</a></li>
+            <li><a routerLink="./statmenu">STAT Menu</a></li>
+            <li><a routerLink="./insurances">Insurance</a></li>
+            <li><a routerLink="./login">Physician lab Result</a></li>
+            <li><a  routerLink="./it-ehr">IT and EHR Solution</a></li>
+          </ul>
+        </li>
+        <li>
+          <a  class="desktop-link">Patients <i class="fa fa-angle-down"></i></a>
+          <input type="checkbox" id="show-services" class="show">
+          <label for="show-services">Patients <i class="fa fa-angle-down"></i></label>
+          <ul class="sublist">
+            <li><a routerLink="./location">Patient Service Center</a></li>
+            <li><a routerLink="./payment">Pay your Bill</a></li>
+            <li><a routerLink="./update your_ insurance">Update your Insurance</a></li>
+            <li><a routerLink="./insurances">Insurances</a></li>
+            <li><a routerLink="./billing contact form">Billing Contact Form</a></li>
+            <!-- <li>
+              <a href="#" class="desktop-link">More Items</a>
+              <input type="checkbox" id="show-items">
+              <label for="show-items">More Items</label>
+              <ul class="sublist">
+                <li><a href="#">Sub Menu 1</a></li>
+                <li><a href="#">Sub Menu 2</a></li>
+                <li><a href="#">Sub Menu 3</a></li>
+              </ul>
+            </li> -->
+          </ul>
+        </li>
+        <li>
+          <a  class="desktop-link">About US <i class="fa fa-angle-down"></i></a>
+          <input type="checkbox" id="show-About" class="show">
+          <label for="show-About">About US <i class="fa fa-angle-down"></i></label>
+          <ul class="sublist">
+            <li><a routerLink="./about-as">About US</a></li>
+            <li><a routerLink="./jobprofiles">Careers</a></li>
+            <li><a routerLink="./contact-us">Contact US</a></li>
+          </ul>
+        </li>
+        <!-- <li> <a  class="desktop-link">News <i class="fa fa-angle-down"></i></a>
+          <input type="checkbox" id="show-news" class="show">
+          <label for="show-news">News <i class="fa fa-angle-down"></i></label>
+          <ul class="sublist">
+            <li><a routerLink="./about-as">Covid-19 Update</a></li>
+            <li><a routerLink="./jobprofiles">Employee update</a></li>
+            <li><a routerLink="./sample">Technical Update</a></li>
+            <li><a routerLink="./Press_Releases">Press Releases</a></li>
+          </ul>
+        </li> -->
+      </ul>
+    </div>
+    <!-- <label for="show-search" class="search-icon"><i class="fas fa-search"></i></label>
+    <form action="#" class="search-box">
+      <input type="text" placeholder="Type Something to Search..." required>
+      <button type="submit" class="go-icon"><i class="fas fa-long-arrow-alt-right"></i></button>
+    </form> -->
+  </nav>
+</div>
+
+<!-- ------------------------------------------------------------------------------------------------------------------------ -->
+<router-outlet></router-outlet>
+<!-- ------------------------------------------------------------------------------------------------------------------------ -->
+<footer class="footer">
+  <div class="container">
+    <div class="row">
+      <div class="footer_col">
+        <h1>ACCURATE DIAGNOSTIC LABS</h1>
+        <P>With hundreds of practices serviced in NJ NY Region we strive to provide excellent patient
+          <br>care in the clinical laboratory industry. Let us be your choice.</P>
+       <P>Please check our Policies:</P>
+       <ul>
+         <li> <a href="">- Patient Privacy Policy</a></li>
+         <li><a href="">- Privacy Policy</a></li>
+         <li><a href="">- Online Payment Terms and Conditions</a></li>
+         <li><a href="">- Terms and conditions</a></li>
+         <li><a href="">- Website compliance statement</a></li>
+       </ul>
+      </div>
+      <div class="footer_col">
+        <h1>Content Link</h1>
+        <ul>
+          <li><a href="">- AACC labtestsonline</a></li>
+          <li><a href="">- Medscape Patient Education</a></li>
+          <li><a href="">- ACP Patient Education Resources</a></li>
+          <li><a href="">- ICD10 Coding</a></li>
+          <li><a href="">- ACP Clinical Guidelines</a></li>
+        </ul>
+      </div>
+      <div class="footer_col">
+        <h1>Content Link</h1>
+        <ul>
+          <li><a href="">- Employee News</a></li>
+          <li><a href="">- Physician Lab Results</a></li>
+          <li><a href="">- CareEvolve</a></li>
+          <li><a href="">- Online Bill Payment</a></li>
+          <li><a href="">- Update My Insurance Info.</a></li>
+          <li><a href="">- EMR Interface Request Form</a></li>
+          <li><a href="">- Locations</a></li>
+          <li><a href="">- ICD-10 Code Translator</a></li>
+          <li><a href="">- Client Survey</a></li>
+          <li><a href="">- New Account Form</a></li>
+        </ul>
+      </div>
+      <div class="footer_col">
+        <h1>QUICK LINKS</h1>
+        <ul>
+          <li><a href="https://www.google.co.in/maps/search/180,+Cotton+Market,+Tenkasi+-Madurai+Rd,+main+road,+Rajapalayam,Tamil+Nadu+-+626117/@9.4501913,77.5424899,15z/data=!3m1!4b1?hl=en-GB" target="_blank"><mat-icon> location_on</mat-icon>No : 180 D2,Npr Complex Cotton Market, Tenkasi Rd, opposite to Mks Petrol Bank, Rajapalayam, Tamil Nadu 626117 </a></li>
+          <li><a href="tel:04563232231">	<mat-icon>perm_phone_msg</mat-icon> 04-563232231</a></li>
+          <li><a href="mailto:@ritrjpm.ac.in"><mat-icon>email</mat-icon>@ritrjpm.ac.in</a></li>
+          <!-- <li><a href=""><mat-icon> message</mat-icon>Online bill Payment </a></li> -->
+          <li><a href="#"><mat-icon>warning</mat-icon> Update for Covid-19</a></li>
+          <li><a href="#"><mat-icon>people</mat-icon> Update for Employees </a></li>
+        </ul>
+
+      </div>
+      <div class="footer_col">
+        <h1>FOLLOW US</h1>      
+        <a href=""><i class="fab fa-facebook-f "></i></a>
+
+<!-- Twitter -->
+<a href=""><i class="fab fa-twitter fa-xl"></i></a>
+
+<!-- Google -->
+<a href=""><i class="fab fa-google fa-xl"></i></a>
+
+<!-- Instagram -->
+<a href=""><i class="fab fa-instagram fa-xl"></i></a>
+
+<!-- Linkedin -->
+<a href=""><i class="fab fa-linkedin-in fa-xl"></i></a>
+
+<!-- Pinterest -->
+<a href=""><i class="fab fa-pinterest fa-xl"></i></a>
+
+<!-- Vkontakte -->
+<a href=""><i class="fab fa-vk icon-large fa-xl"></i></a>
+
+      </div>
+      
+    </div>
+    <hr>
+      <span>© 2000 -
+        2022 Accurate Diagnostic Labs. All Rights Reserved.</span>
+  </div>
+</footer>

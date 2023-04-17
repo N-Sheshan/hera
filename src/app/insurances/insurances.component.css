@@ -1,0 +1,142 @@
+*{
+    text-decoration: none;
+}
+
+.topimg{
+    background-image: url('/assets/images/SPECIALTIES_SERVICED/spec-9.jpg');
+    width: 100%;
+    height:30vh;
+    background-position: center;
+    position:relative;
+   
+}
+.topimg h1{
+    position:absolute;
+    top: 25%;
+left: 15%;
+    color: white;
+    font-size: 10mm;
+}
+/* ------------------------------------------------------ */
+.container{
+    position: relative;
+    display: block;
+    justify-content:center;
+    text-align: center;
+}
+.content{
+    margin: 5px 11%;
+    display: flex;
+}
+.content .list h1{
+    font-weight: bold;
+    color: rgb(15, 161, 224);
+}
+
+.pdf{
+    cursor: pointer;
+    width: 100%;
+    margin:20px;
+    border-radius: 5px;
+    justify-content:space-around;
+    text-align: center;
+    display: flex;
+    background-color: rgba(129, 129, 129, 0.527);
+    height:45px;
+    padding: 10px;
+}
+.pdf a{
+    /* color: white; */
+}
+.pdfSize_ span{
+    /* position: relative; */
+    font-size:large;
+}
+.pdfSize  a{
+    color: rgb(255, 255, 255);
+    padding-right: 10px;
+}
+.fa-file-pdf{
+    color: rgb(204, 59, 59);
+font-size: xx-large;
+padding-right: 10px;  
+}
+
+.pdfSize_:hover{
+    color: rgb(31, 146, 40);
+}
+.content .button{
+    border-radius: 3px;
+    width:100%;
+    display: flex;
+    border: none;
+    background-color: rgb(56, 136, 228);
+    justify-content: space-between;
+    text-align:center;
+    height:5vh;
+    margin-bottom: 10px;
+}
+button{
+    color: white;
+    justify-content: center;
+    text-align: center;
+}
+.button h3{
+    padding: 5px 25px;
+}
+.button i{
+    padding: 10px 25px;
+}
+.minpdf .mpdf{
+    border-radius: 3px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(116, 109, 109, 0.747);
+}
+
+.pdfSize a span{
+    color: white;
+    padding: 0px 20px;
+    font-size: medium;  
+}
+.pdfSize{
+    padding: 0pc 20px;
+}
+.mpdf:hover{
+    color: rgb(126, 193, 25);
+}
+.pdfSize i{
+    padding-top: 10px;
+}
+.mpdf .fa-cloud-download{
+    /* color: rgb(255, 255, 255); */
+    padding: 20px 40px;
+}
+.minpdf{
+    display: none;
+}
+@media only screen and  (max-width: 1060px){
+    .pdf{
+        margin: 0;
+        padding: 0;
+    }
+    
+    
+}
+@media only screen and  (max-width: 1020px){
+    .minpdf{
+        display:block;
+    }
+    .pdf{
+        display: none;
+    }
+}
+@media only screen and  (max-width: 850px){
+    .list{
+        width: 100%;
+    }
+    .list img{
+        width: 100%;
+    }
+}

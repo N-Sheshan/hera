@@ -1,0 +1,251 @@
+*{
+    display: block;
+    text-decoration: none;
+    margin: 0px;
+    padding: 0;
+  }
+  .topimg{
+      background-image: url('/assets/images/SPECIALTIES_SERVICED/spec-2.jpg');
+      width: 100%;
+      height:25vh;
+      background-position: center;
+      position:relative;
+     
+  }
+  .topimg h1{
+      position:absolute;
+      top: 25%;
+  left: 15%;
+      color: white;
+      font-size: 10mm;
+  }
+  /* --------------------------------------------deatil stars------------------------------------------------------ */
+  .content{
+    display: block;
+  }
+  .carddetail{
+    position: relative;
+    display: flex;
+    /* grid-template-columns:repeat(auto-fill,minmax(50%,1fr)); */
+    line-height: 6mm;
+  }
+  .carddetail .column{
+    width: 50%;
+  }
+  .carddetail button{
+    cursor: pointer;
+  }
+  .hdetails{
+    position: relative;
+    border: 3px solid rgba(0, 0, 0, 0.349);
+    padding:10px  7%;
+    /* display: none; */
+  }
+ 
+.dcontent{
+  margin: 10px;
+}
+  .dcontent .dbutton{
+    display:flex;
+    padding: 0px 10px ;
+    width: 100%;
+    height: inherit;
+    justify-content: space-between;
+  }
+  .dcontent .dbutton h4,i{
+margin: 10px 5px ;
+  }
+  .subhdetail{
+    padding:10px  5%;
+  }
+  .subbutton{
+    width: 100%;
+    display:flex;
+    /* justify-content:; */
+    border: none;
+  }
+  .fa-caret-down{
+    display: none;
+  }
+
+  /* --------------------------------------------deatil end------------------------------------------------------ */
+
+  /* -------------------------------------------------------------------------------------------------------------------- */
+  .content{
+    margin: 20px 13%;
+  }
+  .content h1{
+    font-weight: 600;
+    color: #039ABC;
+  }
+  .content p{
+    color: #898989;
+  }
+  .light{
+    
+    margin: 30px 17px;
+    background-color: rgba(0, 0, 0);
+    color: white;
+  }
+  .light h2,h4{
+    line-height: 23px;
+  }
+  .light h2{
+    font-weight: bold;
+    padding: 20px;
+    padding-bottom: 1px;
+  }
+  .light h4{
+    font-weight:500;
+    padding: 20px;
+    padding-top: 1px;
+  }
+
+  .list h2{
+    font-weight:500;
+  }
+ 
+  .lists {
+    margin: 20px 15px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    line-height: 25px;
+  }
+  li:before {
+    content: "";
+    width: 14px;
+    height: 14px;
+    background: url('/assets/images/list-check.png') no-repeat center center;
+    display: inline-block;
+    margin-right: 15px;
+    vertical-align: middle;
+    position: relative;
+    top: -1px;
+}
+.job{
+    margin: 20px 0px;
+}
+.job h2{
+    position: relative;
+    justify-content: center;
+    text-align:center;
+    margin: 20px 0px ;
+}
+.job_box{
+    margin: 0px 15%;
+    height:20vh;
+    border: 1px solid rgba(119, 114, 114, 0.589);
+    border-radius: 5px;
+}
+.job_box h3{
+    padding: 10px;
+}
+.job_box p{
+    /* padding: 2px 35%; */
+    justify-content: center;
+    text-align:center;
+}
+.job a{
+    margin-left: 15%;
+    font-size: x-small;
+    color: #898989;
+}
+.job .a2{
+justify-content: end;
+}
+.formdiv h1{
+    font-weight:bold;
+    color: black;
+}
+/* =---------------------------form-----------------------------------------= */
+form{
+    margin: 10px 20% 10px 20%;
+}
+
+form input,select{
+    width: 94%;
+    height: 40px;
+    margin: 15px 0px;
+    color: #898989;
+    border: 1px solid #898989a9;
+}
+
+form .name,.row{
+    display: flex;
+}
+.name input {
+    margin-right: 10px;
+}
+form input,select::placeholder{
+    padding: 0px 15px;
+}
+form .sp{
+    padding:0px 10px;
+}
+form .sps{
+    margin-left: 10px;
+    width: 100%;
+}
+.texta{
+    resize: none;
+    padding: 15px;
+    width:94%;
+    height:80px;
+    border-radius: 3px;
+    border:1px solid #8585858c;
+    
+  }
+.row button{
+    position: relative;
+    margin: 15px 18%;
+    padding: 10px 0px;
+    height: 40px;
+    width: 17vw;
+    font-size:small;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    background-color:  rgba(0, 0, 255, 0.815);
+    border-radius: 3px;
+    border: 1px solid rgba(0, 0, 0, 0.589);
+    color: white;
+    
+}
+.row button i{
+    padding: 0px 10px;
+    font-size: medium;
+}
+.btn-warning input[type="file"]{
+    cursor: pointer;
+    position:absolute;
+    left: 0;
+    top: 0;
+    transform: scale(3);
+    opacity: 0;
+}
+button[type='submit']{
+    margin: 0;
+    padding: 10px 0px;
+    width: 10vw;
+    border-radius: 50PX;
+    color: white;
+    background-color:  rgba(0, 0, 255, 0.815);
+    border: 1px solid rgba(0, 0, 0, 0.589);
+}
+
+/* ==================================------media quary------============================ */
+@media only screen and  (max-width: 660px){
+    .content{
+        margin: 20px 5%;
+      }
+    button{
+        width: 20vw;
+        margin: 15px 2%;
+    }
+    button[type='submit']{
+        width: 30vw;
+    }
+    form .name{
+        display: block;
+    }
+}
